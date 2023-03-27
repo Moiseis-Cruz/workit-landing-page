@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'fraunces';
+    src: url(../fonts/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+
+body {
+    max-width: 1440px;
+    background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat;
+}
+
+header {
+    padding: 56px 175px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    width: 95.76px;
+    height: auto;
+}
+
+.btn-header {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--soft-secundary);
+    border-bottom: 3px solid var(--secundary-color);
+    padding-bottom: 32px;
+}
+
+.container-hero {
+    background-color: antiquewhite;
+    width: 635px;
+    height: 258px;
+    text-align: center;
+}
+
+.title {
+    color: var(--soft-secundary);
+    font-family: 'fraunces';
+    font-size: 80px;
+}
+
+.btn-hero {
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    display: block;
+    width: 161px;
+    height: 61px;
+    line-height: 61px;
+}
