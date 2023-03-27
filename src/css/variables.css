@@ -6,3 +6,7 @@
     --soft-primary: #fcf8ff;
     --soft-secundary: #ffffff;
 }
+
+body {
+    background-color: darkcyan;
+}
