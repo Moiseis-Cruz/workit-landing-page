@@ -11,6 +11,7 @@
 body {
     max-width: 1440px;
     background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat;
+    color: var(--soft-secundary);
 }
 
 header {
@@ -35,14 +36,17 @@ header nav {
     font-size: 18px;
     color: var(--soft-secundary);
     border-bottom: 3px solid var(--secundary-color);
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
+}
+
+.hero {
+    text-align: center;
 }
 
 .container-hero {
-    background-color: antiquewhite;
     width: 635px;
-    height: 258px;
-    text-align: center;
+    min-height: 258px;
+    margin: auto;
 }
 
 .title {
@@ -58,4 +62,24 @@ header nav {
     width: 161px;
     height: 61px;
     line-height: 61px;
+    margin: 35px auto 0;
+}
+
+.image-hero {
+    width: 715px;
+    height: auto;
+    margin-top: 148px;
+}
+
+.number {
+    /* background-color: brown; */
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'fraunces';
+    border-radius: 50%;
+    border: 1px solid ;
 }
