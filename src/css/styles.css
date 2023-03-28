@@ -10,12 +10,13 @@
 
 body {
     max-width: 1440px;
-    background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat;
+    /* background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat; */
     color: var(--soft-secundary);
+    background-color: darkgrey;
 }
 
 header {
-    padding: 56px 175px;
+    padding: 56px 165px;
 }
 
 header nav {
@@ -46,7 +47,7 @@ header nav {
 .container-hero {
     width: 635px;
     min-height: 258px;
-    margin: auto;
+    margin: 63px auto 0;
 }
 
 .title {
@@ -63,6 +64,8 @@ header nav {
     height: 61px;
     line-height: 61px;
     margin: 35px auto 0;
+    font-family: 'Manrope';
+    font-weight: 700;
 }
 
 .image-hero {
@@ -71,8 +74,20 @@ header nav {
     margin-top: 148px;
 }
 
+.list {
+    width: 1114px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 90px auto 0;
+    color: var(--primary-color);
+}
+
+.about .list .item {
+    width: 354px;
+}
+
 .number {
-    /* background-color: brown; */
     width: 56px;
     height: 56px;
     display: flex;
@@ -82,4 +97,18 @@ header nav {
     font-family: 'fraunces';
     border-radius: 50%;
     border: 1px solid ;
+    margin: auto;
+}
+
+.about h2 {
+    font-family: 'fraunces';
+    font-size: 32px;
+    margin-top: 56px;
+}
+
+.about p {
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 28px;
 }
