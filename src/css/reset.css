@@ -17,3 +17,7 @@ a {
 img {
     width: 100%;
 }
+
+span {
+    border-bottom: 3px solid var(--secundary-color);
+}
