@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+    header {
+        padding: 37px 40px;
+    }
+
+    .btn-header {
+        font-size: 16px;
+    }
+
+    .container-hero {
+        max-width: 573px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .btn-hero {
+        width: 133px;
+        height: 55px;
+        line-height: 55px;
+        margin: 35px auto 0;
+    }
+
+    .image-hero {
+        max-width: 514px;
+        margin-top: 55px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .list {
+        width: 573px;
+        margin: 56px auto 0;
+        flex-direction: column;
+    }
+
+    .about .list .item {
+        width: 100%;
+        display: flex;
+        gap: 32px;
+        margin-bottom: 48px;
+    }
+
+    .about .item .content-item {
+        width: 475px;
+        text-align: left;
+    }
+
+    .number {
+        width: 47px;
+        height: 47px;
+        font-size: 20px;
+    }
+
+    .about h2 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    .about p {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}
+
+
+/* Dispositivo móvel tamanho M */
+@media (max-width: 375px) {
+    header {
+        padding: 16px 32px;
+    }
+
+    .btn-header {
+        font-size: 16px;
+    }
+
+    .container-hero {
+        width: 343px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .image-hero {
+        width: 320px;
+        margin-top: 64px;
+    }
+
+    .list {
+        width: 343px;
+        margin: 90px auto 0;
+    }
+
+    .about .list .item {
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 24px;
+    }
+
+    .about .item .content-item {
+        width: 100%;
+        text-align: center;
+    }
+}
