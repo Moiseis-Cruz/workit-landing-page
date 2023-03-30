@@ -130,3 +130,38 @@ header nav {
     margin-top: 28px;
     color: var(--tertiary-color);
 }
+
+.about .container-description {
+    background-color: cornflowerblue;
+    width: 1112px;
+    height: 647px;
+    position: relative;
+}
+
+.about .image-founder {
+    width: 477px;
+    height: 477px;
+}
+
+.about .container-description .content-founder {
+    background-color: blueviolet;
+    width: 730px;
+    height: 413px;
+    padding: 65px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.about .container-description .content-founder h2 {
+    background-color: red;
+    font-size: 56px;
+    margin-top: 0;
+}
+
+.about .container-description .content-founder p {
+    background-color: darkgray;
+    font-size: 18px;
+    margin-top: 32px;
+    color: var(--soft-secundary);
+}
