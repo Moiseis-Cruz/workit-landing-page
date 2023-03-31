@@ -136,6 +136,7 @@ header nav {
     width: 1112px;
     height: 647px;
     position: relative;
+    margin: 281px auto 0;
 }
 
 .about .image-founder {
@@ -143,25 +144,52 @@ header nav {
     height: 477px;
 }
 
-.about .container-description .content-founder {
-    background-color: blueviolet;
+.about .container-description .content-founder-extern {
     width: 730px;
-    height: 413px;
-    padding: 65px;
+    height: 474px;
     position: absolute;
     right: 0;
-    bottom: 20px;
+    top: 173px;
+}
+
+.about .container-description .content-founder-extern .bg-pattern-3 {
+    /* background-color: red; */
+    width: 173px;
+    height: 137px;
+    position: absolute;
+    right: 72px;
+    bottom: 0;
+    z-index: 0;
+}
+
+.about .container-description .content-founder {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 413px;
+    padding: 65px;
+    /* bottom: 20px; */
 }
 
 .about .container-description .content-founder h2 {
-    background-color: red;
     font-size: 56px;
     margin-top: 0;
 }
 
 .about .container-description .content-founder p {
-    background-color: darkgray;
     font-size: 18px;
     margin-top: 32px;
     color: var(--soft-secundary);
+}
+
+.about .container-description .content-founder a {
+    background-color: var(--secundary-color);
+    width: 190px;
+    height: 61px;
+    display: block;
+    text-align: center;
+    line-height: 61px;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    margin-top: 32px;
 }
