@@ -191,6 +191,22 @@ header nav {
     margin-top: 32px;
 }
 
+.about .container-description .content-founder a:active {
+    background-color: transparent;
+    color: var(--secundary-color);
+    border: 2px solid var(--secundary-color);
+}
+
+footer .container-footer {
+    width: 116px;
+    height: 102px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer .logo-footer {
     width: 95px;
     height: auto;
@@ -198,11 +214,16 @@ footer .logo-footer {
 
 footer .redes-sociais {
     display: flex;
+    gap: 20px;
 }
 
 footer .redes-sociais .rede-social a i {
-    background-color: red;
+    color: var(--tertiary-color);
     width: 20px;
     height: 20px;
     font-size: 20px;
+}
+
+footer .redes-sociais .rede-social a i:active {
+    color: var(--primary-color);
 }
