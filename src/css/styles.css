@@ -190,3 +190,19 @@ header nav {
     font-weight: 700;
     margin-top: 32px;
 }
+
+footer .logo-footer {
+    width: 95px;
+    height: auto;
+}
+
+footer .redes-sociais {
+    display: flex;
+}
+
+footer .redes-sociais .rede-social a i {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
