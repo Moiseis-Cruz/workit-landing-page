@@ -150,6 +150,9 @@ header nav {
     position: absolute;
     right: 0;
     top: 173px;
+    /* background-image: linear-gradient(#24053e 413px ,#ffffff 413px); */
+    background: url(../images/bg-pattern-3.svg) right 72px bottom 0 no-repeat, linear-gradient(#24053e 413px ,#ffffff 413px);
+    background-size: 173px 137px, auto;
 }
 
 /* .about .container-description .content-founder-extern .bg-pattern-3 {
@@ -163,7 +166,7 @@ header nav {
 
 .about .container-description .content-founder {
     /* background-color: var(--primary-color); */
-    background: url(../images/bg-pattern-3.svg) var(--primary-color) right bottom -20px no-repeat;
+    /* background: url(../images/bg-pattern-3.svg) var(--primary-color) right bottom -20px no-repeat; */
     width: 100%;
     height: 413px;
     padding: 65px;
