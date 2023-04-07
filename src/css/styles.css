@@ -12,7 +12,8 @@ body {
     max-width: 1440px;
     /* background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat; */
     color: var(--soft-secundary);
-    background-color: darkgrey;
+    background: url(../images/bg-pattern-1.svg) -138px 116px no-repeat, url(../images/bg-pattern-2.svg) right -48px top 314px no-repeat, radial-gradient(circle at 50% -45%, #24053e 54%, #fcf8ff 33% 70%, #ffffff 66%);
+    background-size: 270px 215px, 141px 112px, auto;
     margin: auto;
 }
 
@@ -48,8 +49,6 @@ header nav {
 
 .hero {
     text-align: center;
-    background: url(../images/bg-pattern-1.svg) -138px top no-repeat, url(../images/bg-pattern-2.svg) right -48px top 200px no-repeat;
-    background-size: 270px 215px, 141px 112px;
 }
 
 .container-hero {
