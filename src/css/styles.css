@@ -88,8 +88,9 @@ header nav {
 }
 
 .list {
-    width: 1114px;
+    max-width: 1114px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
     margin: 90px auto 0;
@@ -132,23 +133,23 @@ header nav {
 }
 
 .about .container-description {
-    width: 1112px;
-    height: 647px;
+    max-width: 1112px;
+    min-height: 647px;
     position: relative;
     margin: 281px auto 0;
 }
 
 .about .image-founder {
-    width: 477px;
-    height: 477px;
+    max-width: 477px;
+    height: auto;
 }
 
 .about .container-description .content-founder-extern {
-    width: 730px;
-    height: 474px;
+    max-width: 730px;
+    min-height: 474px;
     position: absolute;
     right: 0;
-    top: 173px;
+    bottom: 0;
     background: url(../images/bg-pattern-3.svg) right 72px bottom 0 no-repeat, linear-gradient(#24053e 413px ,#ffffff 413px);
     background-size: 173px 137px, auto;
 }
