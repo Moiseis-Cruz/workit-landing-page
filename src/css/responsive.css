@@ -61,6 +61,44 @@
         font-size: 16px;
         margin-top: 16px;
     }
+
+    .about .container-description {
+        max-width: 689px;
+        min-height: 526px;
+        margin: 100px auto 0;
+    }
+    
+    .about .image-founder {
+        max-width: 281px;
+    }
+
+    .about .container-description .content-founder-extern {
+        max-width: 514px;
+        min-height: 474px;
+        background: url(../images/bg-pattern-3.svg) right 12px bottom 0 no-repeat, linear-gradient(#24053e 413px ,#ffffff 413px);
+    }
+
+    .about .container-description .content-founder {
+        padding: 48px 56px;
+    }
+
+    .about .container-description .content-founder h2 {
+        font-size: 48px;
+    }
+
+    .about .container-description .content-founder p {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .about .container-description .content-founder a {
+        width: 172px;
+        height: 55px;
+        display: block;
+        line-height: 55px;
+        font-size: 16px;
+        margin-top: 24px;
+    }
 }
 
 
