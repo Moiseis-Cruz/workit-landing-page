@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+    body {
+        background: url(../images/bg-pattern-1.svg) -167px 71px no-repeat, url(../images/bg-pattern-2.svg) right -70px top 250px no-repeat, radial-gradient(circle at 50% -45%, #24053e 50%, #fcf8ff 33% 70%, #ffffff 66%);
+        background-size: 270px 215px, 141px 112px, auto;
+    }
+
     header {
         padding: 37px 40px;
     }
@@ -64,7 +69,7 @@
 
     .about .container-description {
         max-width: 689px;
-        min-height: 526px;
+        height: 526px;
         margin: 100px auto 0;
     }
     
@@ -75,11 +80,12 @@
     .about .container-description .content-founder-extern {
         max-width: 514px;
         min-height: 474px;
-        background: url(../images/bg-pattern-3.svg) right 12px bottom 0 no-repeat, linear-gradient(#24053e 413px ,#ffffff 413px);
+        background: url(../images/bg-pattern-3.svg) right 12px bottom 0 no-repeat, linear-gradient(#24053e 375px ,#ffffff 375px);
     }
 
     .about .container-description .content-founder {
         padding: 48px 56px;
+        height: 375px;
     }
 
     .about .container-description .content-founder h2 {
@@ -104,6 +110,11 @@
 
 /* Dispositivo móvel tamanho M */
 @media (max-width: 375px) {
+    body {
+        background: none, none, radial-gradient(circle at 50% -45%, #24053e 46%, #fcf8ff 33% 72%, #ffffff 66%);
+        background-size: 270px 215px, 141px 112px, auto;
+    }
+
     header {
         padding: 16px 32px;
     }
