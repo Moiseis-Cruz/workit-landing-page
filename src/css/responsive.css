@@ -79,7 +79,7 @@
 
     .about .container-description .content-founder-extern {
         max-width: 514px;
-        min-height: 474px;
+        height: 474px;
         background: url(../images/bg-pattern-3.svg) right 12px bottom 0 no-repeat, linear-gradient(#24053e 375px ,#ffffff 375px);
     }
 
@@ -150,5 +150,36 @@
     .about .item .content-item {
         width: 100%;
         text-align: center;
+    }
+
+    .about .container-description {
+        max-width: 343px;
+        height: 603px;
+        margin: 100px auto 0;
+        background-color: red;
+        text-align: center;
+    }
+
+    .about .container-description .content-founder-extern {
+        max-width: 343px;
+        height: 375px;
+        background: none, linear-gradient(#24053e 375px ,#ffffff 375px);
+    }
+
+    .about .container-description .content-founder {
+        padding: 32px;
+        height: 100%;
+    }
+
+    .about .container-description .content-founder h2 {
+        font-size: 32px;
+    }
+
+    .about .container-description .content-founder p {
+        margin-top: 16px;
+    }
+
+    .about .container-description .content-founder a {
+        margin: 24px auto 0;
     }
 }
