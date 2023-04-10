@@ -148,7 +148,7 @@ main {
 
 .about .container-description .content-founder-extern {
     max-width: 730px;
-    min-height: 474px;
+    height: 474px;
     position: absolute;
     right: 0;
     bottom: 0;
