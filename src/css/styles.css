@@ -10,7 +10,6 @@
 
 body {
     max-width: 1440px;
-    /* background: var(--primary-color) url(../images/bg-pattern-1.svg) no-repeat; */
     color: var(--soft-secundary);
     background: url(../images/bg-pattern-1.svg) -138px 116px no-repeat, url(../images/bg-pattern-2.svg) right -48px top 314px no-repeat, radial-gradient(circle at 50% -45%, #24053e 54%, #fcf8ff 33% 70%, #ffffff 66%);
     background-size: 270px 215px, 141px 112px, auto;
@@ -18,7 +17,7 @@ body {
 }
 
 header {
-    width: 100%;
+    max-width: 1440px;
     padding: 56px 165px;
 }
 
@@ -29,6 +28,10 @@ header nav {
     justify-content: space-between;
 }
 
+main {
+    max-width: 1440px;
+}
+
 .logo-header {
     width: 95.76px;
     height: auto;
@@ -36,7 +39,6 @@ header nav {
 
 .btn-header {
     font-family: 'Manrope';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     color: var(--soft-secundary);
