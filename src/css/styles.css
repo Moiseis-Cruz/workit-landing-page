@@ -92,7 +92,7 @@ main {
 .list {
     max-width: 1114px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     text-align: center;
     margin: 90px auto 0;
