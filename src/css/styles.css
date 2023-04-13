@@ -11,14 +11,14 @@
 body {
     max-width: 1440px;
     color: var(--soft-secundary);
-    background: url(../images/bg-pattern-1.svg) -138px 116px no-repeat, url(../images/bg-pattern-2.svg) right -48px top 314px no-repeat, radial-gradient(circle at 50% -45%, #24053e 54%, #fcf8ff 33% 70%, #ffffff 66%);
+    background: url(../images/bg-pattern-1.svg) -138px 116px no-repeat, url(../images/bg-pattern-2.svg) right -48px top 314px no-repeat, radial-gradient(circle at 50% -128%, #24053e 70%, #fcf8ff 70% 81%, #ffffff 81%);
     background-size: 270px 215px, 141px 112px, auto;
     margin: auto;
 }
 
 header {
     max-width: 1440px;
-    padding: 56px 165px;
+    padding: 56px 165px 63px;
 }
 
 header nav {
@@ -56,7 +56,7 @@ main {
 .container-hero {
     width: 635px;
     min-height: 258px;
-    margin: 63px auto 0;
+    margin: auto ;
 }
 
 .title {
@@ -102,10 +102,6 @@ main {
 .about .list .item {
     width: 354px;
 }
-
-/* .about .item .content-item {
-    background-color: brown;
-} */
 
 .number {
     width: 56px;
