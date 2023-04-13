@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     body {
-        background: url(../images/bg-pattern-1.svg) -167px 71px no-repeat, url(../images/bg-pattern-2.svg) right -70px top 250px no-repeat, radial-gradient(circle at 50% -45%, #24053e 50%, #fcf8ff 33% 70%, #ffffff 66%);
+        background: url(../images/bg-pattern-1.svg) -167px 71px no-repeat, url(../images/bg-pattern-2.svg) right -70px top 250px no-repeat, radial-gradient(circle at 50% -45%, #24053e 48%, #fcf8ff 48% 69%, #ffffff 69%);
         background-size: 270px 215px, 141px 112px, auto;
     }
 
@@ -110,7 +110,7 @@
 /* Dispositivo móvel tamanho M */
 @media (max-width: 375px) {
     body {
-        background: none, none, radial-gradient(circle at 50% -45%, #24053e 46%, #fcf8ff 33% 72%, #ffffff 66%);
+        background: none, none, radial-gradient(circle at 50% -70%, #24053e 53%, #fcf8ff 33% 72%, #ffffff 66%);
         background-size: 270px 215px, 141px 112px, auto;
     }
 
